@@ -5,7 +5,9 @@ import { SignUp } from './user-auth/SignUp'
 function App() {
   return (
     <>
-      <SignUp />
+      <div className='overflow-x-hidden h-screen w-screen'>
+        <SignUp />
+      </div>
     </>
   )
 }

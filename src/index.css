@@ -23,4 +23,7 @@
 }
 
 @layer components {
+  .btn {
+    @apply py-3 px-5 text-center text-white rounded float-right;
+  }
 }

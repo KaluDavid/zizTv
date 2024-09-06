@@ -16,6 +16,7 @@ export default {
       orange: "#FF7F50",
       lightGray: "#A3A3A3",
       darkGray: "#141414",
+      light: "#CDCFD566",
     },
     extend: {},
   },

@@ -1,12 +1,11 @@
 import React from 'react'
-import { SignUp } from './user-auth/SignUp'
-
+import Auth from './user-auth/Auth'
 
 function App() {
   return (
     <>
-      <div className='overflow-x-hidden h-screen w-screen'>
-        <SignUp />
+      <div className='overflow-x-hidden h-screen w-full'>
+        <Auth />
       </div>
     </>
   )

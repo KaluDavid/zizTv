@@ -1,0 +1,37 @@
+import React from 'react'
+import { ZizForm } from '../ziz-comp/ZizForm'
+import { Google } from '../ziz-comp/resusable/Google'
+import { Input } from '../ziz-comp/resusable/Input';
+import { GrNext } from "react-icons/gr";
+import { Button } from '../../components/Button';
+
+export function Login() {
+    return (
+        <>
+            <div className='w-1/2 h-full pb-7 bg-white flex flex-col gap-10 '>
+                <ZizForm started="Sign in" signIn="Sign up">
+                    <Google />
+                    <div className='flex flex-col gap-6'>
+                        <Input label="Enter your email" type="email" htmlFor="email" placeHolder="e.g. johndoe@gmail.com" />
+                        <Input label="Enter your password" type="password" htmlFor="name" placeHolder="e.g. Argentina67." />
+                    </div>
+                    <div className='text-darkBlue text-lg font-normal flex items-center justify-between'>
+                        <p>
+                            <input type="checkbox" name="remember" /> Remember me
+                        </p>
+                        <p className='text-orange underline'>Forget password?</p>
+                    </div>
+                </ZizForm>
+
+                <div className='mr-6
+ float-right'>
+                    <Button>
+                        <GrNext />
+                    </Button>
+                </div>
+            </div>
+
+        </>
+    )
+}
+// pt-[12%] 

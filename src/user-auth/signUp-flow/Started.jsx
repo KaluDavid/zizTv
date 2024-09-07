@@ -8,7 +8,7 @@ import { Button } from '../../components/Button';
 export function Started() {
     return (
         <>
-            <div className='w-1/2 h-full pb-7 bg-white'>
+            <div className='w-1/2 h-full *:w-full flex-col flex items-center justify-center pb-7 pr-6 bg-white'>
                 <ZizForm started="Let's get started" signIn="Sign in">
                     <Google />
                     <div className='flex flex-col gap-6'>
@@ -17,13 +17,13 @@ export function Started() {
                         <Input label="Phone number" type="tel" htmlFor="phone number" placeHolder="e.g. 0805556667778" />
                     </div>
 
-                    <div className=' float-right'>
-                        <Button>
-                            <GrNext />
-                        </Button>
-                    </div>
-                </ZizForm>
 
+                </ZizForm>
+                <div className=' float-right px-8'>
+                    <Button>
+                        <GrNext />
+                    </Button>
+                </div>
             </div>
 
         </>

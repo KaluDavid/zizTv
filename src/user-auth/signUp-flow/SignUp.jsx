@@ -7,10 +7,10 @@ import { VerifyEmail } from './VerifyEmail';
 export function SignUp() {
     return (
         <>
-            <div className='w-full h-full flex relative'>
+            <div className='w-full h-full flex relative overflow-hidden'>
                 <Zizz />
-                {/* <Started /> */}
-                <EnterPwd />
+                <Started />
+                {/* <EnterPwd /> */}
                 {/* 
                 <div className='absolute inset-0 bg-darkBlue bg-opacity-30 flex items-center justify-center'>
                     <VerifyEmail />

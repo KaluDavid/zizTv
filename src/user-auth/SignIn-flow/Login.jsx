@@ -8,7 +8,7 @@ import { Button } from '../../components/Button';
 export function Login() {
     return (
         <>
-            <div className='w-1/2 h-full pb-7 bg-white flex flex-col gap-10 '>
+            <div className='w-1/2 *:w-full h-full pb-7  bg-white flex flex-col pr-6 justify-center bg-white items-center '>
                 <ZizForm started="Sign in" signIn="Sign up">
                     <Google />
                     <div className='flex flex-col gap-6'>
@@ -23,8 +23,7 @@ export function Login() {
                     </div>
                 </ZizForm>
 
-                <div className='mr-6
- float-right'>
+                <div className='mr-6 float-right'>
                     <Button>
                         <GrNext />
                     </Button>

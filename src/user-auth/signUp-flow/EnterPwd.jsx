@@ -9,7 +9,7 @@ import { Button } from '../../components/Button';
 export function EnterPwd() {
     return (
         <>
-            <div className='w-1/2 h-full'>
+            <div className='w-1/2 *:w-full h-full flex flex-col items-center pb-7 pr-6 bg-white'>
                 <ZizForm started="Let's get started" signIn="Sign in" >
                     <div className='flex flex-col gap-6'>
                         <Input label="Enter a password" type="password" htmlFor="name" placeHolder="e.g. Argentina67." />
@@ -18,7 +18,7 @@ export function EnterPwd() {
 
                 </ZizForm>
 
-                <div className='flex justify-between items-center m-8'>
+                <div className='flex justify-between items-center m-8 px-8'>
                     <button className='btn border-[1px] text-orange border-orange'>
                         <GrPrevious />
                     </button>

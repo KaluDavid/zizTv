@@ -5,8 +5,10 @@ import { Input } from '../ziz-comp/resusable/Input';
 import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 import { Button } from '../../components/Button';
+import { Link, useNavigate } from 'react-router-dom';
 
 export function EnterPwd() {
+    const navigate = useNavigate();
     return (
         <>
             <div className='w-1/2 *:w-full h-full flex flex-col items-center pb-7 pr-6 bg-white'>
@@ -19,12 +21,15 @@ export function EnterPwd() {
                 </ZizForm>
 
                 <div className='flex justify-between items-center m-8 px-8'>
-                    <button className='btn border-[1px] text-orange border-orange'>
+                    <button className='btn border-[1px] text-orange border-orange' onClick={() => navigate(-1)}>
                         <GrPrevious />
                     </button>
-                    <Button>
-                        <GrNext />
-                    </Button>
+                    <Link to="verifyEmail">
+                        <Button>
+                            <GrNext />
+                        </Button>
+                    </Link>
+
                 </div>
             </div>
         </>

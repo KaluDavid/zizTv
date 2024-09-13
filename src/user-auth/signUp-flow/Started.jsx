@@ -11,7 +11,7 @@ export function Started() {
     return (
         <>
             <div className='w-1/2 h-full *:w-full flex-col flex items-center justify-center pb-7 pr-6 bg-white'>
-                <ZizForm started="Let's get started" signIn={<Link to="login">Sign in</Link>}>
+                <ZizForm started="Let's get started" signIn={<Link to="login/">Sign in</Link>}>
                     <Google />
                     <div className='flex flex-col gap-6'>
                         <Input label="Enter your name:" type="text" htmlFor="name" placeHolder="e.g. John Doe" />

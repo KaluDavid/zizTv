@@ -15,8 +15,8 @@ function App() {
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
 
-      <Route path="auth" element={<Auth />} >
-        <Route index replace element={<Started />} to="started" />
+      <Route path="/auth" element={<Auth />} >
+        <Route index element={<Started />} />
         <Route path='password' element={<EnterPwd />} />
         <Route path='verifyEmail' element={<VerifyEmail />} />
         <Route path="login" element={<Login />} />

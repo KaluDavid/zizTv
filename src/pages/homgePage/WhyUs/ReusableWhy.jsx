@@ -1,19 +1,26 @@
 import React from 'react'
+import { Button } from "../../../components/Button"
 
-export function ReusableWhy() {
+export function ReusableWhy({ bg, img, article, head, icon, btn }) {
+
+    console.log(img)
+
     return (
-        width: Fixed (1, 280px) px;
-    height: Hug(644px)px;
-    padding: 72px 120px 72px 120px;
-    gap: 180px;
-    border - radius: 16px 0px 0px 0px;
-    opacity: 0px;
-
-    <div className='rounded-2xl justify-between flex py-[72px] px-[120px] items-center'>
-        <div className="flex flex-col gap-8 items-start justify-start text-left">
-
+        <div className={`${bg} rounded-2xl justify-between flex py-[50px] px-[100px] gap-[150px] items-center text-white w-full`}>
+            <div className="flex flex-col gap-[72px] items-start justify-start text-left">
+                <div className="flex flex-col gap-8">
+                    <div className='flex justify-center items-center rounded-lg bg-white *:w w-12 h-12 *:h-6 *:w-6 *:object-cover'><img src={icon} alt="" /></div>
+                    <h3><b>{head}</b></h3>
+                    <article>
+                        {article}
+                    </article>
+                </div>
+                <div className="*:w-[200px]">
+                    <Button>{btn}</Button>
+                </div>
+            </div>
+            <img src={img} alt={head} />
         </div>
-
-    </div>
     )
+
 }

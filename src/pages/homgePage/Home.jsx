@@ -4,6 +4,7 @@ import Hero from './Hero'
 import { Customers } from './Customers'
 import { HomeAbout } from './HomeAbout'
 import { WhyUs } from './WhyUs'
+import { WeOffer } from './WeOffer'
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
                 <Customers />
                 <HomeAbout />
                 <WhyUs />
+                <WeOffer />
             </div>
         </>
     )

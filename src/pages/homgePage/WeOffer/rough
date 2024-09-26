@@ -1,0 +1,54 @@
+ <div>
+                    <ul className='flex flex-col items-start gap-4 *:cursor-pointer'>
+                        <li onClick={handleShowNext} className={`liBody ${showNext ? 'rounded-2xl bg-[#CDCFD51A] px-5 py-4' : ''}`}><fieldset><img src={videoIcon} alt="videoIcon" /><b>Video Editing</b></fieldset>
+                            {showNext && <p>
+                                <article>Our expert video editors at Ziz.tv are skilled in turning raw footage into compelling visual stories...</article>
+                                <strong>Keep Learning  <img src={arrow} alt="arrow" /></strong>
+                            </p>}
+                        </li>
+
+                        <li className={`liBody ${showNext ? 'liActive' : ''}`}><fieldset><img src={motionIcon} alt="motionIcon" /><b>Motion Graphics</b></fieldset>
+                            {show && <p>
+                                <article>Add a dynamic touch to your videos with our motion graphics services. Our talented des...</article>
+                                <strong>Keep Learning  <img src={arrow} alt="arrow" /></strong>
+                            </p>}
+                        </li>
+                        <li className={`liBody ${showNext ? 'liActive' : ''}`}> <fieldset><img src={animationIcon} alt="animationIcon" /><b>Animation</b></fieldset>
+                            {show && <p>
+                                <article>Looking to convey complex ideas in a captivating and visually appealing manner?...</article>
+                                <strong>Keep Learning  <img src={arrow} alt="arrow" /></strong>
+                            </p>}
+                        </li>
+                        <li className={`liBody ${showNext ? 'liActive' : ''}`}>
+                            <fieldset><img src={soundIcon} alt="soundIcon" /><b>Sound Design</b></fieldset>
+                            {show && <p>
+                                <article>Achieve the perfect visual tone and mood for your videos with our color grading services. Our skilled...</article>
+                                <strong>Keep Learning  <img src={arrow} alt="arrow" /></strong>
+                            </p>}
+                        </li>
+                        <li className={`liBody ${showNext ? 'liActive' : ''}`}>
+                            <fieldset><img src={gradingIcon} alt="gradingIcon" /><b>Color Grading</b></fieldset>
+                            {show && <p>
+                                <article>Audio is a crucial element of any video, and our sound design services are designed to enhance...</article>
+                                <strong>Keep Learning  <img src={arrow} alt="arrow" /></strong>
+                            </p>}
+                        </li>
+                        <li className={`liBody ${showNext ? 'liActive' : ''}`}>
+                            <fieldset><img src={Yt} alt="Youtube Icon" /><b>YouTube</b></fieldset>
+                            {show && <p>
+                                <article>Editing videos by yourself can be both time-consuming and challenging. On the other hand...</article>
+                                <strong>Keep Learning  <img src={arrow} alt="arrow" /></strong>
+                            </p>}
+                        </li>
+                    </ul>
+                </div>
+
+</div>
+
+///img
+
+ <div className='rounded-2xl h-[50vh] w-[60vh] border border-darkBlue border-opacity-60'></div>
+                <fieldset className='rounded-2xl h-[50vh] w-[60vh] px-[13%] py-[12%]  border border-darkBlue border-opacity-60 mt-[-30px] ml-[-22.5rem]'>
+                    <img src={weOffer1} alt="" className=' w-auto h-full object-cover' />
+                </fieldset>
+</div>

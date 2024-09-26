@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  ul fieldset {
+    @apply flex gap-4 items-center text-lg;
+  }
+  ul strong {
+    @apply flex gap-3 text-orange decoration-[1px] underline underline-offset-4 decoration-orange  items-center;
+  }
+  ul article {
+    @apply font-normal text-lg text-darkBlue;
+  }
+  ul p {
+    @apply flex flex-col gap-[14px];
+  }
+  .liBody {
+    @apply flex flex-col items-start gap-4;
+  }
+  .liActive {
+    @apply rounded-2xl bg-[#CDCFD51A] px-5 py-4;
+  }
+}

@@ -12,6 +12,7 @@ export default {
     colors: {
       white: "#ffffff",
       gray: "#292929",
+      why: "#464646",
       darkBlue: "#03112B",
       orange: "#FF7F50",
       lightGray: "#A3A3A3",

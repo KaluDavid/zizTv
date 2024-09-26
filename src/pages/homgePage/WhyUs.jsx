@@ -1,7 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { ReusableWhy } from './WhyUs/ReusableWhy'
-
+import { Why1 } from './WhyUs/Why1'
+import { Why2 } from './WhyUs/Why2'
+import { Why3 } from './WhyUs/Why3'
+import { Why4 } from './WhyUs/Why4'
+import './WhyUs/Why.css'
 export function WhyUs() {
     return (
         <div className="flex flex-col items-center py-[60px] px-[40px] gap-14 ">
@@ -15,16 +18,17 @@ export function WhyUs() {
                 </div>
                 <div>
                     <ul className='flex items-center gap-[16px]'>
-                        <li><NavLink className={({ isActive }) => isActive ? "active text-orange" : "no-underline"}>Easy Process</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? "active text-orange" : "no-underline"}>High-Quality Output</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? "active text-orange" : "no-underline"}>Comprehensive Video Editing</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? "active text-orange" : "no-underline"}>Client Support</NavLink></li>
+                        <li>Easy Process</li>
+                        <li>High-Quality Output</li>
+                        <li>Comprehensive Video Editing</li>
+                        <li className={({ isActive }) => isActive ? "active" : "no-underline"}>Client Support</li>
                     </ul>
                 </div>
             </div>
-
-            <ReusableWhy />
-
-        </div>
+            {/* <Why1 />
+            <Why2 />
+            <Why3 /> */}
+            <Why4 />
+        </div >
     )
 }

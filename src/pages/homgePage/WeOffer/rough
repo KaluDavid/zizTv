@@ -1,3 +1,12 @@
+<!-- import videoIcon from '../../images/homeImg/videoIcon.png'
+import animationIcon from '../../images/homeImg/animationIcon.png'
+import motionIcon from '../../images/homeImg/motionIcon.png'
+import gradingIcon from '../../images/homeImg/gradingIcon.png'
+import soundIcon from '../../images/homeImg/soundIcon.png'
+import Yt from '../../images/homeImg/Yt.png'
+
+
+
  <div>
                     <ul className='flex flex-col items-start gap-4 *:cursor-pointer'>
                         <li onClick={handleShowNext} className={`liBody ${showNext ? 'rounded-2xl bg-[#CDCFD51A] px-5 py-4' : ''}`}><fieldset><img src={videoIcon} alt="videoIcon" /><b>Video Editing</b></fieldset>
@@ -51,4 +60,4 @@
                 <fieldset className='rounded-2xl h-[50vh] w-[60vh] px-[13%] py-[12%]  border border-darkBlue border-opacity-60 mt-[-30px] ml-[-22.5rem]'>
                     <img src={weOffer1} alt="" className=' w-auto h-full object-cover' />
                 </fieldset>
-</div>
+</div> -->

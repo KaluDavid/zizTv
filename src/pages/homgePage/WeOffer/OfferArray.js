@@ -1,15 +1,15 @@
-import weOffer1 from "../../../images/homeImg/weOffer1.png";
-import weOffer2 from "../../../images/homeImg/weOffer2.png";
-import weOffer3 from "../../../images/homeImg/weOffer3.png";
-import weOffer4 from "../../../images/homeImg/weOffer4.png";
-import weOffer5 from "../../../images/homeImg/weOffer5.png";
-import weOffer6 from "../../../images/homeImg/weOffer6.png";
-import icon1 from "../../../images/homeImg/videoIcon.png";
-import icon2 from "../../../images/homeImg/motionIcon.png";
-import icon3 from "../../../images/homeImg/animationIcon.png";
-import icon4 from "../../../images/homeImg/soundIcon.png";
-import icon5 from "../../../images/homeImg/gradingIcon.png";
-import icon6 from "../../../images/homeImg/Yt.png";
+import weOffer1 from "../../../images/homeImg/offerImages/weOffer1.png";
+import weOffer2 from "../../../images/homeImg/offerImages/weOffer2.png";
+import weOffer3 from "../../../images/homeImg/offerImages/weOffer3.png";
+import weOffer4 from "../../../images/homeImg/offerImages/weOffer4.png";
+import weOffer5 from "../../../images/homeImg/offerImages/weOffer5.png";
+import weOffer6 from "../../../images/homeImg/offerImages/weOffer6.png";
+import icon1 from "../../../images/homeImg/offerImages/videoIcon.png";
+import icon2 from "../../../images/homeImg/offerImages/motionIcon.png";
+import icon3 from "../../../images/homeImg/offerImages/animationIcon.png";
+import icon4 from "../../../images/homeImg/offerImages/soundIcon.png";
+import icon5 from "../../../images/homeImg/offerImages/gradingIcon.png";
+import icon6 from "../../../images/homeImg/offerImages/Yt.png";
 
 export const OfferArray = [
   {

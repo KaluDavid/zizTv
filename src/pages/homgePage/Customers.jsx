@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../../images/homeImg/img1.png'
-import img2 from '../../images/homeImg/img2.png'
-import img3 from '../../images/homeImg/img3.png'
+import img1 from '../../images/homeImg/customersImages/img1.png'
+import img2 from '../../images/homeImg/customersImages/img2.png'
+import img3 from '../../images/homeImg/customersImages/img3.png'
 
 export function Customers() {
     return (

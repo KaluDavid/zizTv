@@ -5,6 +5,7 @@ import { Customers } from './Customers'
 import { HomeAbout } from './HomeAbout'
 import { WhyUs } from './WhyUs'
 import { WeOffer } from './WeOffer'
+import { HowItWorks } from './HowItWorks'
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                 <HomeAbout />
                 <WhyUs />
                 <WeOffer />
+                <HowItWorks />
             </div>
         </>
     )

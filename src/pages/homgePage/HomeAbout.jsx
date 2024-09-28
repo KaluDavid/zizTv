@@ -1,8 +1,8 @@
 import React from 'react'
 import { Button } from '../../components/Button'
-import guy1 from '../../images/homeImg/guy1.png'
-import guy2 from '../../images/homeImg/guy2.png'
-import cubes from '../../images/homeImg/cubes.png'
+import guy1 from '../../images/homeImg/aboutImages/guy1.png'
+import guy2 from '../../images/homeImg/aboutImages/guy2.png'
+import cubes from '../../images/homeImg/aboutImages/cubes.png'
 
 export function HomeAbout() {
     return (

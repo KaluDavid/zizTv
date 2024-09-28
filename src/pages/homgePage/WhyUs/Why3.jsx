@@ -1,6 +1,6 @@
 import React from 'react'
-import why3 from '../../../images/homeImg/why3.svg'
-import icon3 from '../../../images/homeImg/icon3.svg'
+import why3 from '../../../images/homeImg/whyUsImages/why3.svg'
+import icon3 from '../../../images/homeImg/whyUsImages/icon3.svg'
 import { ReusableWhy } from './ReusableWhy'
 
 export function Why3() {

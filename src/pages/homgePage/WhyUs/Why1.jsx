@@ -1,6 +1,6 @@
 import React from 'react'
-import why1 from '../../../images/homeImg/why1.png'
-import icon1 from '../../../images/homeImg/icon1.png'
+import why1 from '../../../images/homeImg/whyUsImages/why1.png'
+import icon1 from '../../../images/homeImg/whyUsImages/icon1.png'
 import { ReusableWhy } from './ReusableWhy'
 
 export function Why1() {

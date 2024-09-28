@@ -8,7 +8,7 @@ export function WeOffer() {
     const [open, setOpen] = useState(null);
 
     return (
-        <div className="flex flex-col items-start gap-8 py-[60px] px-[6rem] ">
+        <div className="flex flex-col items-start gap-4 py-[60px] px-[6rem] ">
 
             <div className='flex text-center'>
                 <h1 className='text-darkBlue text-[40px] leading-[67px] font-montserrat font-bold *:text-orange'>
@@ -20,7 +20,6 @@ export function WeOffer() {
 
                 <ul className='flex flex-col items-start gap-4  w-[35%] *:cursor-pointer'>
                     {OfferArray.map((item) => (
-
                         <Offer key={item.id} item={item} open={open} setShowContent={setShowContent} setOpen={setOpen} itemId={item.id} />
                     ))}
                 </ul>

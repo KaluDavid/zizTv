@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @layer {
+  .works {
+    background: linear-gradient(
+      123.97deg,
+      #ffbfa8 1.01%,
+      rgba(255, 175, 69, 0.62) 97.34%
+    );
+  }
   ul fieldset {
     @apply flex gap-4 items-center text-lg;
   }
@@ -18,7 +25,5 @@
   .liBody {
     @apply flex flex-col items-start gap-4;
   }
-  .liActive {
-    @apply rounded-2xl bg-[#CDCFD51A] px-5 py-4;
-  }
+  
 }

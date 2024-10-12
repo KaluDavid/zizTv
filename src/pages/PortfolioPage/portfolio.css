@@ -1,0 +1,15 @@
+.move {
+  animation: shift 3s ease-in-out;
+}
+
+@keyframes shift {
+  0%,
+  100% {
+    transform: translateX(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(300%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

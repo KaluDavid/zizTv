@@ -8,12 +8,19 @@ import { Started } from './user-auth/signUp-flow/Started'
 import { EnterPwd } from './user-auth/signUp-flow/EnterPwd'
 import { VerifyEmail } from './user-auth/signUp-flow/VerifyEmail'
 import { Login } from './user-auth/SignIn-flow/Login'
+import { Services } from './pages/ServicePage/Services'
+import { Portfolio } from './pages/PortfolioPage/Portfolio'
+import { Client } from './pages/PortfolioPage/Clients/Client'
 
 function App() {
   return <BrowserRouter>
     <Routes>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="services" element={<Services />} />
+      <Route path="portfolio" element={<Portfolio />} >
+        <Route path="client" element={<Client />} />
+      </Route>
 
       <Route path="/auth" element={<Auth />} >
         <Route index element={<Started />} />

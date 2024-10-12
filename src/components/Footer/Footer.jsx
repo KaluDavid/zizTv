@@ -56,7 +56,7 @@ export function Footer({ children }) {
                 </div>
 
             </div>
-            <p className='text-lightGray font-light text-base font-poppins'>@ 2023 Tifi.tv. All rights reserved.</p>
+            <p className='text-lightGray font-light text-base font-poppins'>@ 2024 Tifi.tv. All rights reserved.</p>
         </div>
     )
 }

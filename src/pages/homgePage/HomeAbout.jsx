@@ -22,7 +22,7 @@ export function HomeAbout() {
                     <p className='h-[8px] w-[64px] rotate-45 bg-orange ml-[-29px] mt-[35px]'></p>
                 </div>
                 <article className="font-normal text-lg text-left font-poppins">Ziz.tv is aimed at revolutionizing the video editing industry. We believe in empowering video editors by connecting them to projects that inspire creativity and drive innovation. With a focus on excellence and collaboration, we're dedicated to delivering exceptional visual content that leaves a lasting impression."</article>
-                <Button>Learn More</Button>
+                <Button linkTo='/About'>Learn More</Button>
             </div>
         </div>
     )

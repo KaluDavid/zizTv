@@ -1,0 +1,17 @@
+.active2 {
+  @apply text-[#010309] font-medium text-base decoration-[3px] border-b-orange border-b-2 pb-2;
+}
+
+.rotating-element {
+  animation: spin 1s linear 2;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

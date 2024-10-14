@@ -1,0 +1,32 @@
+.btn {
+  background-color: #ff7f50;
+  padding: 0.7rem 3.5rem;
+  border-radius: 8px;
+  border: none;
+  user-select: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s linear;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  scale: 1;
+}
+
+.btn::after {
+  content: " ";
+  background-color: #ff7f50;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  transition: all 0.5s linear;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.btn:hover::after {
+  width: 100%;
+}

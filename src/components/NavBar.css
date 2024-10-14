@@ -6,4 +6,23 @@
   .active {
     @apply text-[#010309] font-medium text-base decoration-[3px] underline underline-offset-8 decoration-orange;
   }
+  .nill li {
+    @apply transition duration-700 ease-in-out  hover:scale-110;
+  }
+}
+
+.moving {
+  animation: shot 1s ease-in-out;
+}
+
+@keyframes shot {
+  0%,
+  100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-300%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
 }

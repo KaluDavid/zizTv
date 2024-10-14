@@ -9,7 +9,38 @@
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
   50% {
-    transform: translateX(300%);
+    transform: translateX(500%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.move2 {
+  animation: shot1 3s ease-in-out;
+}
+
+@keyframes shot1 {
+  0%,
+  100% {
+    transform: translateX(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(-300%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.move3 {
+  animation: shot 3s ease-in-out;
+}
+
+@keyframes shot {
+  0%,
+  100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-300%);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }

@@ -22,8 +22,8 @@
   }
 }
 
-@layer components {
-  .btn {
-    @apply py-3 px-14 text-center text-white rounded float-right;
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
   }
 }

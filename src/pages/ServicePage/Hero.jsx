@@ -4,7 +4,7 @@ import hero from '../../images/ServicesImg/hero2.svg'
 
 export function Hero() {
     return (
-        <div className='flex items-center flex-col justify-center gap-[56px] px-[40px] pt-28 text-darkBlue'>
+        <div className='flex items-center flex-col justify-center gap-[56px] px-[40px] pt-[60px] text-darkBlue'>
             <div className='flex items-center gap-8 text-center flex-col '>
                 <h1 className='text-[64px] leading-[89px] font-montserrat font-bold *:text-orange'>
                     Complement Your <span>Videos</span> With <br />The Right <span>Sound</span>

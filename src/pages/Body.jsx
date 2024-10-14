@@ -4,12 +4,12 @@ import { Footer } from '../components/Footer/Footer'
 import { FaArrowAltCircleUp } from "react-icons/fa";
 
 
-export default function Body({ children, bg }) {
+export default function Body({ children, bg, bg2 }) {
     return (
         <>
             <div className='py-[20px] overflow-x-hidden'>
                 <div id='move'>
-                    <NavBar bg={bg} />
+                    <NavBar bg={bg} bg2={bg2} />
                 </div>
                 {children}
                 <Footer>

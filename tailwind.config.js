@@ -19,7 +19,17 @@ export default {
       darkGray: "#141414",
       light: "#CDCFD566",
     },
-    extend: {},
+    extend: {
+      animation: {
+        "infinite-scroll": "infinite-scroll 40s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+    },
   },
   plugins: [],
 };

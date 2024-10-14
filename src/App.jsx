@@ -18,10 +18,8 @@ function App() {
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="services" element={<Services />} />
-      <Route path="portfolio" element={<Portfolio />} >
-        <Route path="client" element={<Client />} />
-      </Route>
-
+      <Route path="portfolio" element={<Portfolio />} />
+      <Route path="/client" element={<Client />} />
       <Route path="/auth" element={<Auth />} >
         <Route index element={<Started />} />
         <Route path='password' element={<EnterPwd />} />

@@ -1,5 +1,5 @@
 .active2 {
-  @apply text-[#010309] font-medium text-base decoration-[3px] border-b-orange border-b-2 pb-2;
+  @apply text-[#010309] font-medium text-base decoration-[3px] underline underline-offset-8 decoration-orange;
 }
 
 .rotating-element {

@@ -1,5 +1,5 @@
 import React from 'react'
-import vector from '../../images/AboutImages/vector.svg'
+import vector from '../../images/AboutImages/Vector.svg'
 import weStand from '../../images/AboutImages/weStand.svg'
 
 export function StandFor() {

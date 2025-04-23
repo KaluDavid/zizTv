@@ -8,7 +8,7 @@ import icon1 from "../../../images/homeImg/offerImages/videoIcon.png";
 import icon2 from "../../../images/homeImg/offerImages/motionIcon.png";
 import icon3 from "../../../images/homeImg/offerImages/animationIcon.png";
 import icon4 from "../../../images/homeImg/offerImages/soundIcon.png";
-import icon5 from "../../../images/homeImg/offerImages/gradingIcon.png";
+import icon5 from "../../../images/homeImg/offerImages/gradingicon.png";
 import icon6 from "../../../images/homeImg/offerImages/Yt.png";
 
 export const OfferArray = [
